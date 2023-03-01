@@ -1,0 +1,16 @@
+{
+  "name": "electron-pyscript",
+  "version": "1.0.0",
+  "description": "this project takes python code and runs it",
+  "main": "index.js",
+  "repository": "https://github.com/sarinazeitooni/electron-pyscript.git",
+  "author": "sarinazeitooni",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^23.1.1"
+  }
+}

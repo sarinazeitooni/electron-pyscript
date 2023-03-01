@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>electron and pyscript</title>
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>  </head>
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
   <body>
-
-    
+    <py-script> print('Hello, World!') </py-script>
+    <p>
+        We are using Node.js <span id="node-version"></span>,
+        Chromium <span id="chrome-version"></span>,
+        and Electron <span id="electron-version"></span>.
+    </p>
+    <script src="./renderer.js"></script>
   </body>
 </html>
